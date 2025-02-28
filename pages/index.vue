@@ -79,13 +79,14 @@
               </label>
             </div>
             
-            <NuxtLink
-            to="/dashboard"
-              type="submit" 
-              class="w-full bg-yellow-300 hover:bg-yellow-400 text-[#6046C5] text-[18px] font-medium py-4 px-4 rounded-md transition duration-200"
-            >
-              Iniciar Sessão
-            </NuxtLink>
+            <div> 
+                <NuxtLink
+    to="/dashboard"
+    class="w-full p-5 text-center bg-yellow-300 hover:bg-yellow-400 text-[#6046C5] text-[20px] font-medium rounded-lg transition duration-200 block"
+  >
+    Iniciar Sessão
+  </NuxtLink>
+        </div>
           </form>
         </div>
 
